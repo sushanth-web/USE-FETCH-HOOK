@@ -1,5 +1,5 @@
 import React from "react";
-import {useFetch} from "../hooks/useFetch";
+import {useFetch} from "../hooks/useFetch.jsx";
 const FetchedList = () => {
   const {data,loading, error} =useFetch("https://api.escuelajs.co/api/v1/products")
 if (loading) {

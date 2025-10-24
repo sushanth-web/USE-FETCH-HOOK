@@ -1,5 +1,5 @@
 import React from "react";
-import FetchedList from "./components/productList";
+import FetchedList from "./components/fetchedList";
 
 function App() {
   return (
